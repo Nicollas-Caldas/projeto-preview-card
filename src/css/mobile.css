@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media (max-width: 680px) {
+
+    main {
+        flex-direction: column;
+        height: 100%;
+        padding: 5em 0px;
+    }
+
+    section {
+        height: 400px;
+        min-width: 310px;
+    }
+
+    section.sedan {
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    section.luxury {
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    .botao {
+        margin: 0;
+    }
+
+}
